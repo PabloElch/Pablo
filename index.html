@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Belete Medium Clinic | Trusted Healthcare in Jimma, Ethiopia</title>
+    <meta name="description" content="Experience premium healthcare services in Jimma. Dr Belete Medium Clinic offers general medicine, maternity care, diagnostics, and pharmacy services with compassionate medical professionals.">
+    <meta name="keywords" content="Jgimma clinic, Private clinic Jimma, Laboratory Jimma, Maternal care Jimma, Emergency clinic Jimma, General physician Jimma, Family healthcare Jimma, Child health clinic Jimma, Chronic disease clinic Jimma, Pharmacy Jimma">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #0066CC;
+            --accent-green: #28A745;
+            --neutral-gray: #F4F4F4;
+            --white: #FFFFFF;
+            --dark-text: #333333;
+            --light-gray: #E0E0E0;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            --border-radius: 8px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+position: sticky;
+top: 0;
+background: white;
+z-index: 1000;
+box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--dark-text);
+            line-height: 1.6;
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        header {
+
+position: fixed;
+width: 100%;
+top: 0;
+background: rgba(255,255,255,0.95);
+backdrop-filter: blur(8px);
+z-index: 9999;
+transition: 0.3s ease;
+box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+
+}
+/* Header layout stays same */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+/* NEW: group logo + text */
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Logo image (safe size) */
+.logo img {
+    height: 35px;   /* reduced to avoid breaking header */
+    width: auto;
+    transition: transform 0.2s ease;
+}
+
+/* Hover (no layout break) */
+.logo img:hover {
+    transform: scale(1.05);
+}
+
+/* Text stays clean */
+.logo-text h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.logo-text span {
+    font-size: 12px;
+    color: gray;
+}
+
+nav ul {
+
+display: flex;
+align-items: center;
+gap: 30px;
+list-style: none;
+
+}
+
+
+nav ul li a {
+
+text-decoration: none;
+color: var(--dark-text);
+font-weight: 500;
+transition: 0.2s;
+
+}
+
+
+nav ul li a:hover {
+
+color: var(--primary-blue);
+
+}
+/* Hide hamburger on desktop */
+.mobile-menu-btn {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+
+    /* Show hamburger */
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    /* Hide menu initially */
+    #navMenu {
+        display: none;
+        width: 100%;
+    }
+
+    /* When active */
+    #navMenu.active {
+        display: block;
+    }
+
+    /* Stack menu items */
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0;
+    }
+}
+
+
+.nav-cta {
+
+background: var(--accent-green);
+color: white !important;
+padding: 10px 18px;
+border-radius: 6px;
+
+}
+
+
+.nav-cta:hover {
+
+background: #1f8d3b;
+
+}
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: var(--border-radius);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: var(--transition);
+            cursor: pointer;
+            border: none;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-blue);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            background-color: #0052a3;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        .btn-secondary {
+            background-color: var(--white);
+            color: var(--primary-blue);
+            border: 1px solid var(--primary-blue);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--neutral-gray);
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        .section-title:after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: var(--accent-green);
+            margin: 15px auto;
+        }
+
+        /* ===== HERO SECTION ===== */
+
+.hero-section {
+    padding: 80px 20px;
+    background: linear-gradient(to right, #f7f9fc, #ffffff);
+}
+
+/* Container */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* TEXT SIDE */
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* BADGES */
+.hero-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.hero-badges span {
+    background: #eef4ff;
+    color: #0d6efd;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* BUTTONS */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary {
+    background: #0d6efd;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #0b5ed7;
+}
+
+.btn-secondary {
+    border: 1px solid #0d6efd;
+    color: #0d6efd;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+/* IMAGE SIDE */
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+    object-fit: cover;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-badges {
+        justify-content: center;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+}
+
+        /* Services Section */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background-color: var(--white);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+        }
+
+        /* Doctors Section */
+        .doctors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .doctor-card {
+            background-color: var(--white);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+
+.doctor-img {
+    width: 100%;
+    height: auto;
+    background-color: var(--neutral-gray);
+    overflow: hidden;
+}
+.doctor-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+        .doctor-info {
+            padding: 20px;
+        }
+
+        .doctor-info h3 {
+            margin-bottom: 5px;
+        }
+
+        .doctor-info p {
+            color: var(--primary-blue);
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        /* Emergency Banner */
+        .emergency-banner {
+            background-color: #dc3545;
+            color: var(--white);
+            padding: 20px 0;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .emergency-banner a {
+            color: var(--white);
+            text-decoration: underline;
+            font-weight: 600;
+        }
+
+        /* Features Section */
+        .features {
+            background-color: var(--neutral-gray);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+        }
+
+        /* Contact Section */
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .contact-info h3 {
+            margin-bottom: 20px;
+        }
+
+        .contact-details {
+            margin-bottom: 30px;
+        }
+
+        .contact-item {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        .contact-item i {
+            width: 30px;
+            color: var(--primary-blue);
+        }
+
+        .map-container {
+            height: 300px;
+            background-color: var(--light-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+        }
+        .founder-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.founder-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #0d6efd;
+}
+
+.founder-info h3 {
+    margin-bottom: 5px;
+}
+
+.role {
+    color: #0d6efd;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .founder-card {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* ===== PARTNER SECTION ===== */
+
+.partners-section {
+    background: linear-gradient(to bottom, #f8fbff, #ffffff);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.partners-subtitle {
+    color: #666;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+
+/* ===== SLIDER CONTAINER ===== */
+
+.logo-slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+/* Fade edges (premium effect) */
+.logo-slider::before,
+.logo-slider::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    z-index: 2;
+}
+
+.logo-slider::before {
+    left: 0;
+    background: linear-gradient(to right, #ffffff, transparent);
+}
+
+.logo-slider::after {
+    right: 0;
+    background: linear-gradient(to left, #ffffff, transparent);
+}
+
+/* ===== LOGO TRACK (MOVING) ===== */
+
+.logo-track {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: max-content;
+    animation: scrollLogos 22s linear infinite;
+}
+
+/* Pause animation on hover */
+.logo-slider:hover .logo-track {
+    animation-play-state: paused;
+}
+
+/* ===== LOGOS ===== */
+
+.logo-track img {
+    height: 65px;
+    object-fit: contain;
+    filter: none;              /* remove darkness */
+    opacity: 0.95;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.logo-track img:hover {
+    transform: scale(1.1);
+}
+
+/* ===== ANIMATION ===== */
+
+@keyframes scrollLogos {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+    .logo-track {
+        gap: 30px;
+        animation-duration: 15s;
+    }
+
+    .logo-track img {
+        height: 50px;
+    }
+}
+/* ===== Clinic Facilities Section ===== */
+
+.section {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+/* Grid layout */
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+/* Card style */
+.facility-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facility-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Image */
+.facility-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Text content */
+.facility-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.facility-content h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.facility-content p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* ===== Mobile optimization ===== */
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 22px;
+  }
+
+  .facility-image img {
+    height: 180px;
+  }
+
+  .facility-content p {
+    font-size: 13px;
+  }
+}
+/* SECTION */
+.testimonials-section {
+    padding: 90px 20px;
+    background: linear-gradient(to bottom, #f7f9fc, #ffffff);
+}
+
+/* HEADER */
+.testimonials-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testimonials-header h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.testimonials-header p {
+    color: #666;
+    font-size: 15px;
+}
+
+/* WRAPPER */
+.testimonial-wrapper {
+    position: relative;
+    max-width: 650px;
+    margin: auto;
+}
+
+/* SLIDER */
+.testimonial-slider {
+    position: relative;
+}
+
+/* CARD */
+.testimonial {
+    display: none;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(10px);
+    padding: 35px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    animation: fadeSlide 0.5s ease;
+}
+
+/* ACTIVE */
+.testimonial.active {
+    display: block;
+}
+
+/* ANIMATION */
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* AVATAR */
+.avatar {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0d6efd, #4dabf7);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 10px 25px rgba(13,110,253,0.25);
+}
+
+/* TEXT */
+.testimonial p {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+/* NAME */
+.testimonial h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* ROLE */
+.testimonial span {
+    font-size: 13px;
+    color: #777;
+}
+
+/* NAV BUTTONS */
+.nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transition: 0.3s;
+}
+
+.nav:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+.prev { left: -20px; }
+.next { right: -20px; }
+
+/* DOTS */
+.dots {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 5px;
+    border-radius: 50%;
+    background: #ccc;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: #0d6efd;
+    transform: scale(1.2);
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .nav {
+        width: 40px;
+        height: 40px;
+    }
+    .prev { left: 5px; }
+    .next { right: 5px; }
+}
+
+/* ===== TRUST SECTION ===== */
+
+.trust-section {
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, #f7f9fc, #ffffff);
+}
+
+/* Header */
+.trust-header {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 50px;
+}
+
+.trust-header h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+}
+
+.trust-header p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Grid Layout */
+.trust-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/* Card */
+.trust-item {
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.trust-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon */
+.trust-icon {
+    font-size: 36px;
+    color: #0d6efd;
+    margin-bottom: 18px;
+}
+
+/* Title */
+.trust-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+/* Description */
+.trust-item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .trust-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .trust-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .trust-header h2 {
+        font-size: 24px;
+    }
+}
+        /* Footer */
+        footer {
+            background-color: var(--dark-text);
+            color: var(--white);
+            padding: 60px 0 30px;
+        }
+
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .footer-column h3 {
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40px;
+            height: 2px;
+            background-color: var(--accent-green);
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-column ul li a {
+            color: #ddd;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-column ul li a:hover {
+            color: var(--accent-green);
+            padding-left: 5px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: var(--white);
+            transition: var(--transition);
+        }
+
+        .social-icons a:hover {
+            background-color: var(--accent-green);
+            transform: translateY(-3px);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+
+        /* Responsive Styles */
+        @media(max-width:768px){
+
+nav {
+
+position: fixed;
+top: 80px;
+right: -100%;
+width: 250px;
+height: 100vh;
+background: white;
+transition: 0.35s ease;
+padding-top: 40px;
+
+}
+.doctor-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #0d6efd;
+}
+
+
+nav.active {
+
+right: 0;
+
+}
+
+
+nav ul {
+
+flex-direction: column;
+gap: 25px;
+
+}
+.trust-strip {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+padding: 30px;
+background: #f8fbff;
+text-align: center;
+border-top: 1px solid #eee;
+border-bottom: 1px solid #eee;
+}
+
+
+.top-bar {
+background: var(--primary-blue);
+color: white;
+display: flex;
+justify-content: center;
+gap: 30px;
+padding: 8px;
+font-size: 13px;
+flex-wrap: wrap;
+}
+.appointment-form {
+max-width: 800px;
+margin: 0 auto;
+background: #fff;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.form-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 15px;
+margin-bottom: 15px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ddd;
+border-radius: 8px;
+font-size: 14px;
+outline: none;
+transition: 0.3s;
+}
+
+.appointment-form input:focus,
+.appointment-form select:focus,
+.appointment-form textarea:focus {
+border-color: var(--primary-blue);
+box-shadow: 0 0 5px rgba(0,102,204,0.3);
+}
+
+.full-btn {
+width: 100%;
+margin-top: 10px;
+}
+.success-message {
+
+display:none;
+background:#e6f9f0;
+color:#1f8d3b;
+padding:15px;
+margin-top:15px;
+border-radius:8px;
+text-align:center;
+
+}
+.hero {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("https://res.cloudinary.com/df3r3efat/image/upload/v1777618400/mzmmlsz9soxehxnvspk4.png");
+
+    background-size: contain;   /* shows full image */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+.mobile-menu-btn {
+
+display: bl;
+background: var(--primary-blue);
+border: none;
+font-size: 24px;
+color: white;
+padding: 10px 14px;
+border-radius: 6px;
+cursor: pointer;
+transition: 0.3s ease;
+
+}
+.verified {
+color: green;
+font-size: 13px;
+margin-top: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+}
+           .telegram-float {
+position: fixed;
+bottom: 25px;
+right: 25px;
+background: #229ED9;
+color: white;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 28px;
+box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+z-index: 999;
+transition: 0.3s;
+}
+
+.telegram-float:hover {
+transform: scale(1.1);
+}
+            .emergency-banner {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .section {
+                padding: 40px 0;
+            }
+            
+            .hero {
+                padding: 60px 0;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+.service-card,
+.doctor-card,
+.feature-card {
+
+opacity: 0;
+transform: translateY(40px);
+transition: 0.6s ease;
+
+}
+        }
+        .doctor-img {
+height: 260px;
+overflow: hidden;
+background: none;
+}
+
+.doctor-photo {
+width: 100% !important;
+height: 100% !important;
+object-fit: cover;
+border-radius: 0 !important;
+border: none !important;
+display: block;
+}
+        
+    </style>
+</head>
+<body>
+    <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="services.html">Services</a> |
+    <a href="contact.html">Contact</a>
+</nav>
+   <div class="top-bar">
+
+<div>📍 Jimma, Ethiopia</div>
+<div>📞 +251 913 340 588</div>
+<div>🕒 Mon–Sun 24/7</div>
+
+</div>
+
+    <section class="hero-section">
+
+    <div class="hero-container">
+
+        <!-- LEFT CONTENT -->
+        <div class="hero-text">
+
+            <h1>Jimma’s Trusted Private Clinic for Modern Family Healthcare</h1>
+
+            <p>
+                15+ years of experience delivering high-quality medical care including
+                diagnostics, maternal health, emergency services, and chronic disease management.
+            </p>
+
+            <div class="hero-badges">
+                <span>✔ 15+ Years Experience</span>
+                <span>✔ Trusted by 1000+ Patients</span>
+                <span>✔ Modern Diagnostic Services</span>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#appointment" class="btn-primary">Book Appointment</a>
+                <a href="#services" class="btn-secondary">Our Services</a>
+            </div>
+
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="hero-image">
+            <img src="https://res.cloudinary.com/df3r3efat/image/upload/v1777618400/mzmmlsz9soxehxnvspk4.png" alt="Clinic Building">
+        </div>
+
+    </div>
+
+</section>
+<header id="mainHeader">
+
+<div class="container header-container">
+
+    <!-- LEFT -->
+    <div class="logo-wrapper">
+        <div class="logo">
+            <img src="https://res.cloudinary.com/df3r3efat/image/upload/v1777794991/aemqbu80dvk9k6yphyuz.png" alt="Clinic Logo">
+        </div>
+        <div class="logo-text">
+            <h2>Dr Belete Medium Clinic</h2>
+            <span>Trusted Care Since 2010</span>
+        </div>
+    </div>
+
+    <!-- RIGHT (NAV + BUTTON) -->
+    <nav id="navMenu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <a href="tel:+251913340588" class="nav-cta">
+                    <i class="fas fa-phone"></i> Call Now
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- ✅ NOW INSIDE -->
+    <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+    </button>
+
+</div>
+
+</header>
+
+    <!-- Emergency Banner -->
+    <section class="emergency-banner">
+        <div class="container">
+            <strong>24/7 Emergency Care Available</strong> - Call: <a href="tel:+251913340588">0913 340 588</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Medical Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>General OPD</h3>
+                    <p>Comprehensive outpatient care providing routine medical consultations for both adults and children. Our experienced healthcare professionals deliver thorough evaluations, accurate diagnoses, and personalized treatment plans tailored to each patient’s needs. We focus on preventive care, early detection of illnesses, and continuous health management to ensure long-term well-being in a comfortable and patient-centered environment.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-baby"></i>
+                    </div>
+                    <h3>Maternal & Child Care</h3>
+                    <p>We provide comprehensive, patient-centered maternal and pediatric healthcare services designed to support both mothers and children at every stage of development. Our care includes thorough assessment, accurate diagnosis, and effective treatment of a wide range of acute and chronic medical conditions.</p>
+                </div>
+                <div class="service-card">
+    <div class="service-icon">
+        <i class="fas fa-flask"></i>
+    </div>
+
+    <h3>Diagnostic Laboratory & Imaging Services</h3>
+
+    <p>
+        Accredited diagnostic laboratory providing accurate and reliable medical testing
+        and imaging services to support effective clinical diagnosis and treatment.
+    </p>
+
+    <ul>
+        <li>Accredited diagnostic laboratory services</li>
+        <li>Echocardiography (Heart Ultrasound)</li>
+        <li>Digital radiographic (X-ray) services</li>
+        <li>Routine and specialized laboratory investigations</li>
+    </ul>
+</div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Chronic Disease</h3>
+                    <p>Ongoing, patient-centered care for diabetes, hypertension, asthma, and other chronic conditions. We focus on regular monitoring, effective treatment, and lifestyle guidance to help patients control their illness and improve overall quality of life.</p>
+                </div>
+                <div class="service-card">
+    <div class="service-icon">
+        <i class="fas fa-plane"></i>
+    </div>
+    <h3>Medical Evaluation for Travelers Abroad</h3>
+    <p>
+        Comprehensive pre-travel and pre-employment medical screening for patients
+        traveling abroad, including Gulf countries, with full medical clearance and documentation support.
+    </p>
+</div>
+<div class="service-card">
+    <div class="service-icon">
+        <i class="fas fa-handshake"></i>
+    </div>
+
+    <h3>Credit Medical Services & Institutional Partnerships</h3>
+
+    <p>
+        We provide credit-based medical services for employees of government institutions
+        and non-governmental organizations, ensuring accessible and flexible healthcare support.
+    </p>
+
+    <p>
+        Our clinic proudly collaborates with recognized institutions and organizations to
+        facilitate streamlined medical care for their staff and beneficiaries.
+    </p>
+
+    <ul>
+        <li>Ethiopian Postal Service (ELPA)</li>
+        <li>Ethio Telecom</li>
+        <li>Ethiopian Airlines</li>
+    </ul>
+</div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h3>Emergency Care</h3>
+                    <p>Immediate medical intervention for emergencies with qualified staff on-site.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trust-section">
+    <div class="container">
+
+        <div class="trust-header">
+            <h2>Trusted Healthcare You Can Rely On</h2>
+            <p>Providing dependable, high-quality medical care to the Jimma community for over a decade.</p>
+        </div>
+
+        <div class="trust-grid">
+
+            <div class="trust-item">
+                <i class="fas fa-hospital trust-icon"></i>
+                <h3>15+ Years Experience</h3>
+                <p>Serving families in Jimma with consistent, patient-centered healthcare services.</p>
+            </div>
+
+            <div class="trust-item">
+                <i class="fas fa-user-md trust-icon"></i>
+                <h3>1000+ Patients Served</h3>
+                <p>Trusted by a growing number of patients for reliable diagnosis and treatment.</p>
+            </div>
+
+            <div class="trust-item">
+                <i class="fas fa-handshake trust-icon"></i>
+                <h3>Corporate Partnerships</h3>
+                <p>Working with ELPA, Ethio Telecom, and Ethiopian Airlines to provide trusted medical services.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+    <!-- Clinic Facilities Section -->
+<section id="facilities" class="section">
+  <div class="container">
+
+    <h2 class="section-title">Our Clinic Facilities</h2>
+
+    <div class="facilities-grid">
+
+      <div class="facility-card">
+        <div class="facility-image">
+          <img src="https://res.cloudinary.com/df3r3efat/image/upload/v1777618400/mzmmlsz9soxehxnvspk4.png" alt="Main Clinic Building">
+        </div>
+
+        <div class="facility-content">
+          <h3>Main Clinic Building</h3>
+          <p>Our modern clinic building is designed to provide a clean, comfortable, and professional healthcare environment for all patients.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+        <section id="partners" class="section partners-section">
+    <div class="container">
+
+        <h2 class="section-title">We Work With</h2>
+        <p class="partners-subtitle">
+            Trusted by leading public and private organizations across Ethiopia
+        </p>
+
+        <div class="logo-slider">
+
+            <div class="logo-track">
+
+                <img src="https://cdn.phototourl.com/free/2026-04-25-5304ca4f-e41a-46f7-81fd-37654311b104.png" alt="Ethiopian Insurance Company">
+                <img src="https://www.image2url.com/r2/default/images/1777093018717-312f5dda-305f-4241-bf73-8821ef3b3d0d.jpg" alt="Ethio Telecom">
+                <img src="https://www.image2url.com/r2/default/images/1777092978379-3c0adb0a-c409-47d9-8afa-d158a81858e9.png" alt="Ethiopian Airlines">
+                <img src="https://www.image2url.com/r2/default/images/1777092853944-ec58b437-f2b7-489f-a2e1-3fd15991a507.png" alt="EELPA">
+                <img src="https://cdn.phototourl.com/free/2026-04-25-d2275046-1349-4af7-a695-078dd6c2dcaf.jpg" alt="Commercial Bank of Ethiopia">
+                <img src="https://www.image2url.com/r2/default/images/1777092928365-e05859e5-af7e-4396-a9be-63b00514fbbf.png" alt="Wegagen Bank">
+
+                <!-- duplicate for smooth infinite scroll -->
+                <img src="https://cdn.phototourl.com/free/2026-04-25-5304ca4f-e41a-46f7-81fd-37654311b104.png">
+                <img src="https://www.image2url.com/r2/default/images/1777093018717-312f5dda-305f-4241-bf73-8821ef3b3d0d.jpg">
+                <img src="https://www.image2url.com/r2/default/images/1777092978379-3c0adb0a-c409-47d9-8afa-d158a81858e9.png">
+                <img src="https://www.image2url.com/r2/default/images/1777092853944-ec58b437-f2b7-489f-a2e1-3fd15991a507.png">
+                <img src="https://cdn.phototourl.com/free/2026-04-25-d2275046-1349-4af7-a695-078dd6c2dcaf.jpg">
+                <img src="https://www.image2url.com/r2/default/images/1777092928365-e05859e5-af7e-4396-a9be-63b00514fbbf.png">
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+    
+
+<section id="founder" class="section">
+    <div class="container">
+        <h2 class="section-title">Founder & Medical Practitioner</h2>
+
+        <div class="founder-card">
+
+            <div class="founder-image">
+                <img src="https://www.image2url.com/r2/default/images/1776419973094-824ae3cb-3825-416d-b232-b837078f219a.jpg" alt="Dr. Belete Worku" class="doctor-photo">
+            </div>
+
+            <div class="founder-info">
+                <h3>Dr. Belete Habte</h3>
+                <p class="role">Consultant Internal Medicine Medical Specialist</p>
+
+                <p>
+                    Dedicated medical professional with years of experience in
+                    providing quality healthcare services including diagnosis,
+                    maternal care, and emergency treatment.
+                </p>
+
+                <p>
+                    Committed to improving community health in Jimma through
+                    accessible and reliable medical services.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+  <!-- Features Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Qualified Doctors</h3>
+                    <p>Our medical team consists of highly trained professionals with extensive experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Patient First</h3>
+                    <p>We prioritize compassionate care and patient comfort in every interaction.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Clean & Safe</h3>
+                    <p>Our facility maintains the highest standards of cleanliness and safety protocols.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>24/7 Availability</h3>
+                    <p>Emergency care and urgent appointments are available around the clock.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+<div class="container">
+
+<h2 class="section-title">
+Insurance & Payment Options
+</h2>
+
+<p style="text-align:center">
+
+We accept private payment and selected
+local insurance providers.
+
+Contact our reception for verification.
+
+</p>
+
+</div>
+</section>
+<section class="testimonials-section">
+
+    <div class="container">
+
+        <div class="testimonials-header">
+            <h2>Trusted by Our Patients</h2>
+            <p>Real feedback from people who received care at our clinic.</p>
+        </div>
+
+        <div class="testimonial-wrapper">
+
+            <!-- Slider -->
+            <div class="testimonial-slider">
+
+                <div class="testimonial active">
+                    <div class="avatar">A</div>
+                    <p>“The clinic provided excellent care. The doctors were professional and very attentive.”</p>
+                    <h4>Abel T.</h4>
+                    <span>Patient</span>
+                </div>
+
+                <div class="testimonial">
+                    <div class="avatar">M</div>
+                    <p>“Very clean environment and fast service. I felt comfortable and well treated.”</p>
+                    <h4>Meseret K.</h4>
+                    <span>Patient</span>
+                </div>
+
+                <div class="testimonial">
+                    <div class="avatar">D</div>
+                    <p>“Reliable clinic with accurate laboratory results and excellent medical care.”</p>
+                    <h4>Dawit H.</h4>
+                    <span>Patient</span>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <button class="nav prev" id="prevBtn">‹</button>
+            <button class="nav next" id="nextBtn">›</button>
+
+            <!-- DOTS -->
+            <div class="dots" id="dots"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section" id="appointment">
+
+<div class="container">
+
+<h2 class="section-title">Book an Appointment</h2>
+
+<p style="text-align:center; margin-bottom:30px;">
+Fill out the form below and our team will contact you shortly.
+</p>
+
+<form class="appointment-form" id="appointmentForm">
+
+<div class="form-grid">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<input type="email" placeholder="Email (optional)">
+
+<select required>
+<option value="">Select Service</option>
+<option>General OPD</option>
+<option>Maternal & Child Care</option>
+<option>Diagnostic Laboratory & Imaging</option>
+<option>Pharmacy</option>
+<option>Chronic Disease Care</option>
+<option>Emergency Care</option>
+<option>Medical Evaluation for Travelers Abroad</option>
+</select>
+
+<input type="date" placeholder="Date"required>
+
+<input type="time" placeholder="Time"required>
+
+</div>
+
+<textarea placeholder="Describe your condition (optional)" rows="4"></textarea>
+
+<button type="submit" class="btn btn-primary full-btn">
+Book Appointment
+</button>
+<div class="success-message" id="successMsg">
+
+
+
+</div>
+</form>
+
+</div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section features">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Visit Our Clinic</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Oromia Region, Jimma Special Zone, Ethiopia</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+251 966888813</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@drbeletemediumclinic.com</span>
+                        </div>
+                    </div>
+                    <h3>Operating Hours</h3>
+                    <div class="contact-details">
+                        <p>Monday - Friday 24/7</p>
+                        <p>Saturday - Sunday: 24/7</p>
+                    </div>
+                    <h3>Emergency</h3>
+                    <p>For emergency services, call: <strong>+251 966888813</strong></p>
+                </div>
+                    </div>
+                    <div class="map-container">
+  <iframe
+    width="100%"
+    height="450"
+    style="border:0;"
+    loading="lazy"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps?q=Dr%20Belete%20Medium%20Clinic%20Awetu%20Jimma%20Ethiopia&output=embed">
+  </iframe>
+</div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Dr Belete Medium Clinic</h3>
+                    <p>
+Serving Jimma and surrounding communities
+with trusted private healthcare since 2010.
+</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#doctors">Doctors</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#">General OPD</a></li>
+                        <li><a href="#">Maternal & Child Care</a></li>
+                        <li><a href="#">Laboratory</a></li>
+                        <li><a href="#">Pharmacy</a></li>
+                        <li><a href="#">Emergency Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li>Oromia Region, Jimma</li>
+                        <li>Phone: +251 966888813</li>
+                        <li>Email: info@drfantamediumclinic.com</li>
+                        <li>Emergency 24/7: +251 913 340 588</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Developer Contact -->
+<div class="developer-contact">
+    <a href="https://t.me/rise2power" target="_blank" class="dev-telegram-btn">
+        <i class="fab fa-telegram"></i>
+        Contact Developer
+    </a>
+</div>
+            <div class="copyright">
+                <p>&copy; 2026 Dr Belete Medium Clinic. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+    <script>
+
+const cards = document.querySelectorAll(
+'.service-card, .doctor-card, .feature-card'
+);
+
+window.addEventListener('scroll', () => {
+
+cards.forEach(card => {
+
+const top = card.getBoundingClientRect().top;
+
+if(top < window.innerHeight - 100){
+
+card.style.opacity = 1;
+card.style.transform = "translateY(0)";
+
+}
+
+});
+
+});
+
+</script>
+<a href="https://t.me/Enatye99" class="telegram-float">
+<i class="fab fa-telegram"></i>
+</a>
+<script>
+
+function toggleMenu(){
+
+document.getElementById("navMenu").classList.toggle("active");
+
+}
+
+
+// Auto-close menu after clicking a link
+
+document.querySelectorAll("#navMenu a").forEach(link => {
+
+link.addEventListener("click", () => {
+
+document.getElementById("navMenu").classList.remove("active");
+
+});
+
+});
+
+</script>
+<script>
+let testimonials = document.querySelectorAll(".testimonial");
+let index = 0;
+
+const dotsContainer = document.getElementById("dots");
+
+// CREATE DOTS
+testimonials.forEach((_, i) => {
+    let dot = document.createElement("span");
+    dot.classList.add("dot");
+    if (i === 0) dot.classList.add("active");
+
+    dot.addEventListener("click", () => {
+        index = i;
+        showTestimonial();
+    });
+
+    dotsContainer.appendChild(dot);
+});
+
+const updateDots = () => {
+    document.querySelectorAll(".dot").forEach((dot, i) => {
+        dot.classList.toggle("active", i === index);
+    });
+};
+
+const showTestimonial = () => {
+    testimonials.forEach(t => t.classList.remove("active"));
+    testimonials[index].classList.add("active");
+    updateDots();
+};
+
+// NEXT
+document.getElementById("nextBtn").addEventListener("click", () => {
+    index = (index + 1) % testimonials.length;
+    showTestimonial();
+});
+
+// PREV
+document.getElementById("prevBtn").addEventListener("click", () => {
+    index = (index - 1 + testimonials.length) % testimonials.length;
+    showTestimonial();
+});
+
+// AUTO SWAP
+setInterval(() => {
+    index = (index + 1) % testimonials.length;
+    showTestimonial();
+}, 5000);
+</script>
+<script>
+
+window.addEventListener("scroll", () => {
+
+const header = document.getElementById("mainHeader");
+
+if(window.scrollY > 60){
+
+header.style.height = "65px";
+
+}
+
+else{
+
+header.style.height = "80px";
+
+}
+
+});
+
+</script>
+<script>
+document.getElementById("appointmentForm").addEventListener("submit", function(e){
+
+e.preventDefault();
+
+const name = this.querySelector('input[type="text"]').value;
+const phone = this.querySelector('input[type="tel"]').value;
+const email = this.querySelector('input[type="email"]').value;
+const service = this.querySelector('select').value;
+const date = this.querySelector('input[type="date"]').value;
+const time = this.querySelector('input[type="time"]').value;
+const notes = this.querySelector('textarea').value;
+
+const message =
+`NEW CLINIC APPOINTMENT REQUEST
+
+Patient Name: ${name}
+Phone Number: ${phone}
+Email: ${email}
+
+Service Needed: ${service}
+
+Preferred Date: ${date}
+Preferred Time: ${time}
+
+Additional Notes:
+${notes}`;
+window.open(
+`https://t.me/Enatye99?text=${encodeURIComponent(message)}`,
+"_blank"
+);
+
+document.getElementById("successMsg").style.display = "block";
+
+});
+</script>
+</html>
+
+
+                        
