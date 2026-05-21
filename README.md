@@ -1,3 +1,4 @@
+# 🏥 Dr Belete medium clinic 
 # Smart Clinic Appointment Website
 
 A modern responsive clinic website designed to improve patient interaction and appointment booking experience.
@@ -16,6 +17,8 @@ A modern responsive clinic website designed to improve patient interaction and a
 
 ## Project Goal
 This project was created to practice frontend web development and modern UI/UX design principles.
+## 🌐 Live Demo
+https://belete-clinic.vercel.app/
 
 ## GitHub Profile
 https://github.com/PabloElch
